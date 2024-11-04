@@ -11,12 +11,13 @@ body{
 
 .cityInput{
   padding: 10px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   border: 2px solid hsl(0, 0, 20%);
   border-radius: 10px;
   margin: 10px;
   width: 300px;
+ 
 }
 
 button[type="submit"]{
@@ -35,4 +36,22 @@ button[type="submit"]:hover{
 }
 
 
+ .weather-box {
+  border-radius: 8px ; 
+  padding: 30px; 
+  margin: 20px auto; 
+  max-width: 300px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  text-align: center;
+ }
+  .weather-box h2 {
+    font-size: 2em; 
+}
 
+.weather-box p {
+    font-size: 2em; 
+}
+
+.weather-box img {
+    width: 100px; 
+} 

@@ -36,6 +36,9 @@ function displayWeatherData(data) {
   const weatherContainer = document.createElement('div');
   weatherContainer.innerHTML = weatherInfo;
   document.body.appendChild(weatherContainer);
+   weatherContainer.className = 'weather-box'
+//    setTimeout(() => {
+//     weatherContainer.remove(); 
+// }, 5000);
 }
-
 
