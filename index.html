@@ -1,19 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Weather App</title>
-</head>
-<body>
-  <form class="weatherform">
-    <input type="text" class="cityInput" placeholder="Enter City"> 
-    <button type="submit">Get Weather</button>
-  </form>
-  <div class="card" style="display: none;">
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    
+    <div class="container">
+    <form class="weatherform">
+      <input type="text" class="cityInput" placeholder="Enter Country"> 
+      <button type="submit">Get Weather</button>
+      
+    </form>
   </div>
-  
-</body>
+    <div class="weather-box"></div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>
