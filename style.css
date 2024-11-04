@@ -13,7 +13,7 @@ body{
   padding: 10px;
   font-size: 1.5rem;
   font-weight: bold;
-  border: 2px solid hsl(0, 0, 20%);
+  border: 2px solid hsl(0, 0%, 20%);
   border-radius: 10px;
   margin: 10px;
   width: 300px;
@@ -41,7 +41,7 @@ button[type="submit"]:hover{
   padding: 30px; 
   margin: 20px auto; 
   max-width: 300px; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 10px rgba(2, 1, 1, 0.2); 
   text-align: center;
  }
   .weather-box h2 {

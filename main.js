@@ -7,6 +7,7 @@ import { formatWeatherData } from './data.js';
 const weatherForm = document.querySelector('.weatherform');
 const cityInput = document.querySelector('.cityInput');
 
+
 weatherForm.addEventListener('submit', async (e) => {
   e.preventDefault();
  
@@ -21,8 +22,7 @@ weatherForm.addEventListener('submit', async (e) => {
     cityInput.focus();
   } catch (error) {
     console.error(error);
-    cityInput.value = "";
-    cityInput.focus();
+   
   }
 });
 
@@ -37,8 +37,8 @@ function displayWeatherData(data) {
   weatherContainer.innerHTML = weatherInfo;
   document.body.appendChild(weatherContainer);
    weatherContainer.className = 'weather-box'
-//    setTimeout(() => {
-//     weatherContainer.remove(); 
-// }, 5000);
+   setTimeout(() => {
+    weatherContainer.remove(); 
+}, 6000);
 }
 
