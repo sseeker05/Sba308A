@@ -28,4 +28,7 @@ Sources
 YouTube bro - code for insipiration
 Google - for research
 gitguardian.com - for the api key
-
+Usage
+I am using Vite
+npm install
+npm run dev
