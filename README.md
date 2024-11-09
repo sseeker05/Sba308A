@@ -29,10 +29,10 @@ YouTube bro - code for insipiration
 Google - for research
 gitguardian.com - for the api key
 Usage
-I am using Vite package
-npm install
+I am using Vite package bundler
+npm i
 npm run dev
-if the app runs into an error please axios(npm install axios)
+if the app runs into an error please install axios(npm install axios)
 and run it again.
 
 
