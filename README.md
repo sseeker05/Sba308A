@@ -1,4 +1,4 @@
-Weather App
+**Weather App**
 A simple weather application built with HTML, CSS, and JavaScript, utilizing the OpenWeatherMap API.
 Features
 * Search for weather by city or country
@@ -24,11 +24,15 @@ File Structure
 * api.js (API interaction module)
 * data.js (data formatting module)
 * style.css (stylesheets)
-Sources 
+Sources
 YouTube bro - code for insipiration
 Google - for research
 gitguardian.com - for the api key
 Usage
-I am using Vite
+I am using Vite package
 npm install
 npm run dev
+if the app runs into an error please axios(npm install axios)
+and run it again.
+
+
