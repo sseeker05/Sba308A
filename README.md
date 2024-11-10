@@ -1,4 +1,4 @@
-**Weather App**
+Weather App
 A simple weather application built with HTML, CSS, and JavaScript, utilizing the OpenWeatherMap API.
 Features
 * Search for weather by city or country
@@ -30,9 +30,10 @@ Google - for research
 gitguardian.com - for the api key
 Usage
 I am using Vite package bundler
-npm i
-npm run dev
-if the app runs into an error please install axios(npm install axios)
+npm i (to install the package)
+npm run dev (to run the bundle)
+if the app runs into an error please install axios
+(npm install axios)
 and run it again.
 
 
