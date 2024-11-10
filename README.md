@@ -28,7 +28,7 @@ Sources
 YouTube bro - code for insipiration
 Google - for research
 gitguardian.com - for the api key
-Usage
+** Usage **
 I am using Vite package bundler
 npm i (to install the package)
 npm run dev (to run the bundle)
